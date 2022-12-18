@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0, 1);
+}
+
+.login {
+    width: 400px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: left;
+    margin: 10px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.Register {
+    text-align: left;
+    margin-top: 100px;
+    margin: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+h4 {
+    text-align: right;
+    margin-top: 43px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: larger;
+    font-style: border;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.left img {
+    width: 350px;
+    height: 50;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: black;
+    font-weight: bold;
+}
+
+.col {
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.fb {
+    background-color: #3b5998;
+    color: #fff;
+    text-align: center;
+    float: right;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    margin-right: 75px;
+    transition: 0.25s;
+    width: 100px;
+}
+
+.google {
+    background-color: #dd4b39;
+    color: #fff;
+    text-align: center;
+    float: left;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 50px;
+    transition: 0.25s;
+    width: 100px;
+}
+
+input,
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: o.85;
+    display: inline-block;
+    font-size: 17px;
+    text-decoration: none;
+}
+button:hover {
+    background: rgb(153, 145, 144);
+}
+
+
+@media (max-width: 880px) {
+    .container {
+        width: 100%;
+        max-width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    form {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .login {
+        width: 400px;
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .left img {
+        width: 100%;
+        height: 100%;
+    }
+}
